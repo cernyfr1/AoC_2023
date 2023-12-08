@@ -57,7 +57,7 @@ public class puzzle2 {
         }
 
         private int extractInt(String str) {
-            str = str.replaceAll("[^0-9]", ""); // regular expression
+            str = str.replaceAll("[^0-9]", "");
             str = str.replaceAll(" +", "");
             if (str.isEmpty())
                 return -1;
